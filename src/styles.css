@@ -26,19 +26,11 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "Symphony";
-  src: url("/fonts/Symphony.woff") format("woff");
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
-
 @custom-variant dark (&:is(.dark *));
 
 /*
  * Lexicon design system.
- * Brand: navy #16324B + cream #F3EDDD. Script wordmark, Inter body, mono eyebrows.
+ * Brand: navy #16324B + butter yellow #F3EDDD. Pinyon Script wordmark, The Seasons body.
  */
 
 @theme inline {
@@ -73,7 +65,7 @@
   --color-ring: var(--ring);
   --font-sans: "The Seasons", Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
-  --font-script: "Symphony", cursive;
+  --font-script: "Pinyon Script", cursive;
 }
 
 :root {

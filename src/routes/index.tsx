@@ -108,11 +108,12 @@ function Landing() {
     <div className="min-h-screen bg-cream-soft text-foreground">
       <header className="sticky top-0 z-40 border-b border-border bg-cream-soft/85 backdrop-blur-sm">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
-          <a href="#top" className="flex items-center gap-2.5">
-            <span className="grid size-8 place-items-center rounded-md bg-primary text-lg text-primary-foreground wordmark">
-              L
-            </span>
-            <Wordmark className="text-2xl text-primary" />
+          <a
+            href="#top"
+            className="flex min-h-10 items-center rounded-md bg-primary px-4 py-1 text-cream transition-colors hover:bg-primary-soft"
+            aria-label="Lexicon home"
+          >
+            <Wordmark className="text-3xl leading-none text-cream" />
           </a>
           <nav className="hidden items-center gap-7 text-sm font-medium text-muted-foreground md:flex">
             <a href="#gap" className="hover:text-primary">
@@ -442,10 +443,9 @@ function Landing() {
       <footer className="border-t border-border bg-cream">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-5 py-8 sm:flex-row">
           <div className="flex items-center gap-2.5">
-            <span className="grid size-7 place-items-center rounded-md bg-primary text-base text-primary-foreground wordmark">
-              L
+            <span className="flex min-h-9 items-center rounded-md bg-primary px-3 py-1">
+              <Wordmark className="text-2xl leading-none text-cream" />
             </span>
-            <Wordmark className="text-xl text-primary" />
             <span className="font-mono text-[10px] tracking-widest uppercase text-muted-foreground">
               professional fluency
             </span>
