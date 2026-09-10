@@ -152,7 +152,7 @@ function Landing() {
               You can order dinner.
               <br />
               <span className="relative inline-block">
-                You can&apos;t close the{" "}
+                You can’t close the{" "}
                 <span className="relative">
                   audit.
                   <span
@@ -168,7 +168,7 @@ function Landing() {
             <p className="mt-6 max-w-[52ch] rise text-lg leading-relaxed text-pretty text-muted-foreground">
               <Wordmark className="text-xl text-primary" /> carries you past everyday
               proficiency into the precise technical language of your field — medical,
-              economics, and finance — in Mandarin, Spanish, and Hindi. You&apos;ll learn
+              economics, and finance — in Mandarin, Spanish, and Hindi. You’ll learn
               to communicate effectively in a language not native to you, in any role you
               need.
             </p>
@@ -205,12 +205,12 @@ function Landing() {
             <div className="md:col-span-4">
               <p className="eyebrow text-muted-foreground">(b) Two kinds of fluent</p>
               <h2 className="mt-4 text-3xl leading-tight font-extrabold tracking-tight text-balance text-primary">
-                A seal of biliteracy isn&apos;t the whole story.
+                A seal of biliteracy isn’t the whole story.
               </h2>
               <p className="mt-4 leading-relaxed text-pretty text-muted-foreground">
                 A certificate proves you can hold a conversation. It says nothing about
                 whether you can hold a meeting, read a trade journal, or interpret a
-                medical document in your field&apos;s exact register — and the exams that
+                medical document in your field’s exact register — and the exams that
                 certify it cost $20 to $195+ each time you sit one.
               </p>
             </div>
@@ -345,13 +345,13 @@ function Landing() {
 
         {/* VOICES / TRUST */}
         <section id="voices" className="border-t border-border py-16 md:py-20">
-          <p className="eyebrow text-muted-foreground">(d) Why we&apos;re building it</p>
+          <p className="eyebrow text-muted-foreground">(d) Why we’re building it</p>
           <div className="mt-8 grid gap-4 md:grid-cols-12">
             <blockquote className="rounded-2xl border border-border bg-cream/50 p-7 md:col-span-7">
               <p className="text-xl leading-relaxed text-pretty text-primary">
-                “When I went on my medical brigade, I felt like I didn&apos;t know how to
+                “When I went on my medical brigade, I felt like I didn’t know how to
                 fully speak and communicate with our patients using my high school
-                Spanish. We used Google Translate, but sometimes it didn&apos;t work — we
+                Spanish. We used Google Translate, but sometimes it didn’t work — we
                 had no service and were in the jungle.”
               </p>
               <footer className="mt-5 text-sm text-muted-foreground">
@@ -365,8 +365,8 @@ function Landing() {
                   Transparency
                 </p>
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                  Clear about what each track teaches and what it doesn&apos;t — no
-                  fluency promises we can&apos;t back.
+                  Clear about what each track teaches and what it doesn’t — no
+                  fluency promises we can’t back.
                 </p>
               </div>
               <div className="rounded-xl border border-border bg-cream-soft p-5">

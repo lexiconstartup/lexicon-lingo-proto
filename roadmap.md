@@ -1,7 +1,7 @@
 # Lexicon landing page roadmap
 
-- [x] Brand palette confirmed: navy #16324B + cream #F3EDDD
-- [x] Cursive script wordmark for the Lexicon name
+- [x] Brand palette updated: navy #11507D + butter #FFF3D5
+- [x] Cursive script wordmark (Amoresa) for the Lexicon name
 - [x] Typography: Symphony wordmark + The Seasons page type
 - [x] Design system tokens in src/styles.css
 - [x] Hero with value proposition and waitlist call to action
