@@ -12,7 +12,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Lexicon turns the language you already speak into the language your profession demands — industry terminology, professional tone, and real-world communication in Hindi, Mandarin, and Spanish. Join early access.",
+          "Lexicon turns the language you already speak into the language your profession demands — industry terminology, professional tone, and real‐world communication in Hindi, Mandarin, and Spanish. Join early access.",
       },
       {
         property: "og:title",
@@ -36,7 +36,7 @@ export const Route = createFileRoute("/")({
           "@type": "Organization",
           name: "Lexicon",
           description:
-            "AI-powered professional-language platform that bridges conversational fluency and professional fluency in Hindi, Mandarin, and Spanish.",
+            "AI‐powered professional-language platform that bridges conversational fluency and professional fluency in Hindi, Mandarin, and Spanish.",
         }),
       },
     ],
@@ -91,11 +91,11 @@ const painPoints = [
 
 const values = [
   {
-    title: "Industry-specific",
+    title: "Industry‐specific",
     body: "Learn the terminology actually used in your profession — not generic textbook vocabulary.",
   },
   {
-    title: "Context-aware",
+    title: "Context‐aware",
     body: "Understand not only what to say, but how professionals naturally say it in meetings, interviews, presentations, and everyday work.",
   },
   {
@@ -113,20 +113,20 @@ const steps = [
   {
     n: "2",
     title: "Learn through real professional scenarios",
-    body: "Practice vocabulary, conversations, meetings, interviews, presentations, and profession-specific situations.",
+    body: "Practice vocabulary, conversations, meetings, interviews, presentations, and profession‐specific situations.",
   },
   {
     n: "3",
     title: "Speak with confidence",
-    body: "Get AI-powered explanations, professional rewrites, terminology, and contextual feedback designed around how your industry actually communicates.",
+    body: "Get AI‐powered explanations, professional rewrites, terminology, and contextual feedback designed around how your industry actually communicates.",
   },
 ];
 
 const benefits = [
-  "Profession-specific vocabulary",
-  "Real-world workplace communication",
+  "Profession‐specific vocabulary",
+  "Real‐world workplace communication",
   "Hindi, Mandarin & Spanish at launch",
-  "AI-powered contextual learning",
+  "AI‐powered contextual learning",
   "Built around your career, not a textbook",
 ];
 
@@ -145,7 +145,7 @@ const faqs = [
   },
   {
     q: "How does the technology work?",
-    a: "Our direction is an AI platform enhanced with profession-specific sources, academic literature, terminology, and curated domain knowledge — so practice reflects how your industry actually communicates, not a generic phrasebook.",
+    a: "Our direction is an AI platform enhanced with profession‐specific sources, academic literature, terminology, and curated domain knowledge — so practice reflects how your industry actually communicates, not a generic phrasebook.",
   },
 ];
 
@@ -200,8 +200,8 @@ function Landing() {
             <p className="mt-6 max-w-[56ch] rise text-lg leading-relaxed text-pretty text-muted-foreground">
               Turn the language you already speak into the language your
               profession demands. <Wordmark className="text-xl text-primary" />{" "}
-              is an AI-powered platform for industry-specific terminology,
-              professional tone, and real-world communication — starting with
+              is an AI‐powered platform for industry‐specific terminology,
+              professional tone, and real‐world communication — starting with
               Hindi, Mandarin, and Spanish.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4 rise">
@@ -307,7 +307,7 @@ function Landing() {
           </div>
           <p className="mt-6 max-w-[68ch] text-sm leading-relaxed text-muted-foreground">
             Under the hood, our direction is an AI platform enhanced with
-            profession-specific sources, academic literature, terminology, and
+            profession‐specific sources, academic literature, terminology, and
             curated domain knowledge — so what you practice reflects how your
             industry actually communicates.
           </p>
