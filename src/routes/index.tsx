@@ -107,7 +107,7 @@ const values = [
 const steps = [
   {
     n: "1",
-    title: "Choose your language + profession",
+    title: "Choose your language and profession",
     body: "Select your language and the field you want to communicate in.",
   },
   {
@@ -125,7 +125,7 @@ const steps = [
 const benefits = [
   "Profession‐specific vocabulary",
   "Real‐world workplace communication",
-  "Hindi, Mandarin & Spanish at launch",
+  "Hindi, Mandarin and Spanish at launch",
   "AI‐powered contextual learning",
   "Built around your career, not a textbook",
 ];
