@@ -171,12 +171,10 @@ function Landing() {
             </a>
           </nav>
           <a
-            href={WAITLIST_URL}
-            target="_blank"
-            rel="noopener"
+            href="#demo"
             className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition duration-200 hover:bg-primary-soft active:scale-[0.98]"
           >
-            Join early access
+            Try the prototype
           </a>
         </div>
       </header>
@@ -200,7 +198,7 @@ function Landing() {
               Hindi, Mandarin, and Spanish.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4 rise">
-              <CtaButton>Help shape the first version — get early access</CtaButton>
+              <CtaButton>Try the prototype — play with it now</CtaButton>
             </div>
           </div>
 
@@ -366,15 +364,15 @@ function Landing() {
           <div className="relative overflow-hidden rounded-3xl bg-primary px-7 py-14 md:px-12 md:py-16">
             <div className="pointer-events-none absolute -top-16 -left-16 size-64 rounded-full bg-cream/10 blur-3xl" />
             <div className="pointer-events-none absolute -right-10 -bottom-20 size-72 rounded-full bg-cream/10 blur-3xl" />
-            <div className="relative mx-auto max-w-2xl text-center">
-              <p className="eyebrow text-primary-foreground/50">Early access</p>
+            <div className="relative mx-auto max-w-3xl text-center">
+              <p className="eyebrow text-primary-foreground/50">Try it now</p>
               <h2 className="mt-5 text-4xl leading-[1.05] font-extrabold tracking-tight text-balance text-primary-foreground md:text-5xl">
                 Your expertise shouldn’t get lost in translation.
               </h2>
               <p className="mx-auto mt-5 max-w-[48ch] text-lg leading-relaxed text-pretty text-primary-foreground/75">
                 Build the professional vocabulary, confidence, and
                 communication skills to be understood wherever your career
-                takes you.
+                takes you. The first version is live below — take it for a spin.
               </p>
               <ul className="mx-auto mt-8 grid max-w-xl gap-2.5 text-left sm:grid-cols-2">
                 {benefits.map((b) => (
@@ -387,18 +385,25 @@ function Landing() {
                   </li>
                 ))}
               </ul>
-              <div className="mt-10 overflow-hidden rounded-2xl bg-cream-soft text-left">
+              <div className="mt-10 overflow-hidden rounded-2xl bg-cream-soft text-left shadow-lg">
                 <iframe
-                  title="Join the Lexicon early access list"
-                  src={WAITLIST_EMBED_URL}
-                  className="h-[560px] w-full"
+                  title="Lexicon prototype — try it now"
+                  src={PROTOTYPE_URL}
+                  className="h-[720px] w-full"
                   loading="lazy"
                 >
                   Loading…
                 </iframe>
               </div>
               <p className="mt-4 font-mono text-[11px] tracking-widest uppercase text-primary-foreground/40">
-                Takes a minute · No spam
+                <a
+                  href={PROTOTYPE_URL}
+                  target="_blank"
+                  rel="noopener"
+                  className="underline underline-offset-4 transition hover:text-primary-foreground/70"
+                >
+                  Open the prototype in a new tab
+                </a>
               </p>
             </div>
           </div>
@@ -426,12 +431,10 @@ function Landing() {
             <span className="font-semibold">professional fluency.</span>
           </p>
           <a
-            href={WAITLIST_URL}
-            target="_blank"
-            rel="noopener"
+            href="#demo"
             className="ml-auto rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition duration-200 hover:bg-primary-soft active:scale-[0.98]"
           >
-            Join early access
+            Try the prototype
           </a>
         </div>
       </div>
