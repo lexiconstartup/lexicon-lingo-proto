@@ -360,7 +360,7 @@ function Landing() {
         </section>
 
         {/* FINAL CONVERSION */}
-        <section className="py-16 md:py-24">
+        <section id="demo" className="scroll-mt-20 py-16 md:py-24">
           <div className="relative overflow-hidden rounded-3xl bg-primary px-7 py-14 md:px-12 md:py-16">
             <div className="pointer-events-none absolute -top-16 -left-16 size-64 rounded-full bg-cream/10 blur-3xl" />
             <div className="pointer-events-none absolute -right-10 -bottom-20 size-72 rounded-full bg-cream/10 blur-3xl" />
