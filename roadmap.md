@@ -4,7 +4,7 @@
 - [x] Cursive script wordmark (Amoresa) for the Lexicon name
 - [x] Typography: Symphony wordmark + The Seasons page type
 - [x] Design system tokens in src/styles.css
-- [x] Hero with value proposition and waitlist call to action
+- [x] Playable prototype embedded on the page (replaces waitlist form)
 - [x] Gap section: biliteracy/CEFR exam costs vs professional proficiency
 - [x] Field tracks: medical + business/economics/finance
 - [x] Languages: Mandarin, Spanish, Hindi
