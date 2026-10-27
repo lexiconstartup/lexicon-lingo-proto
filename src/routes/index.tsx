@@ -18,7 +18,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Bridge the gap between conversational fluency and professional fluency. Join the Lexicon early access list.",
+          "Bridge the gap between conversational fluency and professional fluency. Try the Lexicon prototype now.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -62,9 +62,7 @@ function CtaButton({
       : "bg-cream-soft text-primary hover:bg-cream";
   return (
     <a
-      href={WAITLIST_URL}
-      target="_blank"
-      rel="noopener"
+      href="#demo"
       className={`${base} ${tone} ${className}`}
     >
       <span className="relative z-10">{children}</span>
