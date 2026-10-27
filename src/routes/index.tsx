@@ -1,9 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-const WAITLIST_URL =
-  "https://docs.google.com/forms/d/e/1FAIpQLSdrSh-ZjErc7eXnT2dJvvaAS7Yd27UriziyFFvoiBxfsFzVVg/viewform?usp=dialog";
-const WAITLIST_EMBED_URL =
-  "https://docs.google.com/forms/d/e/1FAIpQLSdrSh-ZjErc7eXnT2dJvvaAS7Yd27UriziyFFvoiBxfsFzVVg/viewform?embedded=true";
+const PROTOTYPE_URL = "https://aarnasahu6.github.io/lexicon/home/";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -12,7 +9,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Lexicon turns the language you already speak into the language your profession demands — industry terminology, professional tone, and real‐world communication in Hindi, Mandarin, and Spanish. Join early access.",
+          "Lexicon turns the language you already speak into the language your profession demands — industry terminology, professional tone, and real‐world communication in Hindi, Mandarin, and Spanish. Try the playable prototype now.",
       },
       {
         property: "og:title",
